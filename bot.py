@@ -1,6 +1,7 @@
 import logging
 from aiogram import Bot, Dispatcher, executor, types
 
+import cfg
 
 bot = Bot(cfg.TOKEN)
 dp = Dispatcher()
