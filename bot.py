@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO)
 
 @dp.message_handler(commands=['start'])
 async def send_welcome(message: types.Message):
-    await message.reply("Привет!\nЯ простой Telegram-бот, который повторяет ваши сообщения.")
+    await message.reply("Привет! 😊 \nЯ простой Telegram-бот, который повторяет ваши сообщения. 👉👈")
 
 
 @dp.message_handler()
